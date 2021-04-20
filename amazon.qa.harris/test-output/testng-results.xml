@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="amazon regression suite" duration-ms="311778" started-at="2021-04-19T18:43:53Z" finished-at="2021-04-19T18:49:05Z">
+    <groups>
+    </groups>
+    <test name="amazon functional regression test" duration-ms="311778" started-at="2021-04-19T18:43:53Z" finished-at="2021-04-19T18:49:05Z">
+      <class name="amazon.qa.pageLayerTest.homePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:amazon.qa.pageLayerTest.homePageTest@36902638]" name="setup" is-config="true" duration-ms="23724" started-at="2021-04-19T18:48:13Z" finished-at="2021-04-19T18:48:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="accounTypeLists()[pri:0, instance:amazon.qa.pageLayerTest.homePageTest@36902638]" name="accounTypeLists" duration-ms="3509" started-at="2021-04-19T18:48:36Z" finished-at="2021-04-19T18:48:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accounTypeLists -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:amazon.qa.pageLayerTest.homePageTest@36902638]" name="teardown" is-config="true" duration-ms="920" started-at="2021-04-19T18:48:40Z" finished-at="2021-04-19T18:48:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:amazon.qa.pageLayerTest.homePageTest@36902638]" name="setup" is-config="true" duration-ms="19904" started-at="2021-04-19T18:48:41Z" finished-at="2021-04-19T18:49:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getTitleHomeTest()[pri:0, instance:amazon.qa.pageLayerTest.homePageTest@36902638]" name="getTitleHomeTest" duration-ms="3298" started-at="2021-04-19T18:49:01Z" finished-at="2021-04-19T18:49:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitleHomeTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:amazon.qa.pageLayerTest.homePageTest@36902638]" name="teardown" is-config="true" duration-ms="931" started-at="2021-04-19T18:49:04Z" finished-at="2021-04-19T18:49:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- amazon.qa.pageLayerTest.homePageTest -->
+      <class name="amazon.qa.pageLayerTest.loginPageTest">
+        <test-method status="PASS" signature="brosetup()[pri:0, instance:amazon.qa.pageLayerTest.loginPageTest@1d2adfbe]" name="brosetup" is-config="true" duration-ms="8666" started-at="2021-04-19T18:43:53Z" finished-at="2021-04-19T18:44:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brosetup -->
+        <test-method status="PASS" signature="allLinkTest()[pri:0, instance:amazon.qa.pageLayerTest.loginPageTest@1d2adfbe]" name="allLinkTest" duration-ms="231575" started-at="2021-04-19T18:44:02Z" finished-at="2021-04-19T18:47:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allLinkTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:amazon.qa.pageLayerTest.loginPageTest@1d2adfbe]" name="TearDown" is-config="true" duration-ms="760" started-at="2021-04-19T18:47:54Z" finished-at="2021-04-19T18:47:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="brosetup()[pri:0, instance:amazon.qa.pageLayerTest.loginPageTest@1d2adfbe]" name="brosetup" is-config="true" duration-ms="5770" started-at="2021-04-19T18:47:54Z" finished-at="2021-04-19T18:48:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brosetup -->
+        <test-method status="PASS" signature="getTitleTest()[pri:0, instance:amazon.qa.pageLayerTest.loginPageTest@1d2adfbe]" name="getTitleTest" duration-ms="80" started-at="2021-04-19T18:48:00Z" finished-at="2021-04-19T18:48:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitleTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:amazon.qa.pageLayerTest.loginPageTest@1d2adfbe]" name="TearDown" is-config="true" duration-ms="1031" started-at="2021-04-19T18:48:00Z" finished-at="2021-04-19T18:48:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="brosetup()[pri:0, instance:amazon.qa.pageLayerTest.loginPageTest@1d2adfbe]" name="brosetup" is-config="true" duration-ms="6040" started-at="2021-04-19T18:48:01Z" finished-at="2021-04-19T18:48:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brosetup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:amazon.qa.pageLayerTest.loginPageTest@1d2adfbe]" name="loginTest" duration-ms="4182" started-at="2021-04-19T18:48:08Z" finished-at="2021-04-19T18:48:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:amazon.qa.pageLayerTest.loginPageTest@1d2adfbe]" name="TearDown" is-config="true" duration-ms="844" started-at="2021-04-19T18:48:12Z" finished-at="2021-04-19T18:48:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- amazon.qa.pageLayerTest.loginPageTest -->
+    </test> <!-- amazon functional regression test -->
+  </suite> <!-- amazon regression suite -->
+</testng-results>

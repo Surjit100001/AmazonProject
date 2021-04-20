@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name= "amazon regression suite">
+
+<listeners>
+       <listener class-name= "amazon.qa.Listener.extentReportListener"/>
+  </listeners>
+  
+  
+    <test name = "amazon functional regression test">
+       <classes>
+       
+       <class name = "amazon.qa.pageLayerTest.loginPageTest"/>
+       <class name = "amazon.qa.pageLayerTest.homePageTest"/>
+       
+       </classes>
+     </test>
+ </suite>
